@@ -1,0 +1,23 @@
+# Sample file.  Modify to client site
+forge "http://forge.puppetlabs.com"
+
+# Modules from the Puppet Forge
+mod "puppetlabs/pe_gem", "0.0.1"
+mod "puppetlabs/firewall", "1.1.2"
+mod "puppetlabs/registry", "1.0.2"
+mod "puppetlabs/vcsrepo", "1.0.2"
+mod "puppetlabs/git", "0.1.0"
+mod "zack/r10k", "2.2.4"
+mod "gentoo/portage", "2.2.0"
+mod "trlinkin/noop", "0.0.2"
+mod "puppetlabs/registry"
+mod "dalen/puppetdbquery"
+mod "rodjek/logrotate"
+#mod "devopsy/puppet_decrypt"
+#mod "biemond/orawls"
+
+
+mod "services",
+  :git => "git@gitrepo:/opt/git/services.git",
+  :ref => 'master'
+
