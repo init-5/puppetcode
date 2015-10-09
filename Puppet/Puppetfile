@@ -24,3 +24,7 @@ mod "services",
 mod "ssh",
   :git => "git@gitrepo:/opt/git/ssh.git",
   :ref => 'master'
+
+mod "software",
+  :git => "git@gitrepo:/opt/git/software.git",
+  :ref => 'master'
