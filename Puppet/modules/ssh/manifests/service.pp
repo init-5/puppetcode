@@ -1,4 +1,4 @@
-# FHLBA manifest to control SSH Service
+# manifest to control SSH Service
 #
 class ssh::service {
   case $::operatingsystem {
